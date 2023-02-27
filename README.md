@@ -1,5 +1,6 @@
-# service-health-check
-# Backend of a service that checks the availability of another service and sends SMS to registered numbers notifying when a service responds differently than expected or is unavailable.
+# Service Health Check
+
+Backend of a service that checks the availability of another service and sends SMS to registered numbers notifying when a service responds differently than expected or is unavailable.
 
 # Technologies:
 NodeJs + Typescript, Express, SQLITE, Amazon SNS.
@@ -12,11 +13,15 @@ NodeJs + Typescript, Express, SQLITE, Amazon SNS.
 3. Check the Status of the service via the /scan, /health-check and /status endpoints.
 
 # Environment Variables
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_REGION=
+* AWS_ACCESS_KEY_ID
+* AWS_SECRET_ACCESS_KEY
+* AWS_REGION
+
+# Register phone numbers for notification:
+You can register the desired phone numbers in the src/config/constants.ts file.
 
 # Endpoints:
+```
 Creation of request that will be tested.
 POST
 /requests
@@ -47,7 +52,7 @@ GET
 View overall system status
 GET
 /status
-
+```
 # Install dependencies:
 yarn install
 
