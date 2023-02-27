@@ -17,6 +17,9 @@ NodeJs + Typescript, Express, SQLITE, Amazon SNS.
 * AWS_SECRET_ACCESS_KEY
 * AWS_REGION
 
+# Register phone numbers for notification:
+You can register the desired phone numbers in the src/config/constants.ts file.
+
 # Endpoints:
 ```
 Creation of request that will be tested.
