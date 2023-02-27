@@ -1,5 +1,6 @@
-# service-health-check
-# Backend of a service that checks the availability of another service and sends SMS to registered numbers notifying when a service responds differently than expected or is unavailable.
+# Service Health Check
+
+Backend of a service that checks the availability of another service and sends SMS to registered numbers notifying when a service responds differently than expected or is unavailable.
 
 # Technologies:
 NodeJs + Typescript, Express, SQLITE, Amazon SNS.
