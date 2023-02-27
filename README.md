@@ -12,11 +12,12 @@ NodeJs + Typescript, Express, SQLITE, Amazon SNS.
 3. Check the Status of the service via the /scan, /health-check and /status endpoints.
 
 # Environment Variables
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_REGION=
+* AWS_ACCESS_KEY_ID
+* AWS_SECRET_ACCESS_KEY
+* AWS_REGION
 
 # Endpoints:
+```
 Creation of request that will be tested.
 POST
 /requests
@@ -47,7 +48,7 @@ GET
 View overall system status
 GET
 /status
-
+```
 # Install dependencies:
 yarn install
 
